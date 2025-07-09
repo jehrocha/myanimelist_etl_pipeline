@@ -74,23 +74,24 @@ Fill in the following details
 6. Create a postgres server in pgadmin
 
 Go to http://localhost:5050/ and login with credentials:
+```
+    username: admin@admin.com
 
-`  username: admin@admin.com `
-
-`  password: root `
-
+    password: root
+```
 Click Add Server
 
 Under **General > Name**, create a name for the server (e.g. anime_server)
 
 Under **Connections**, fill in the following:
+```
+    Hostname/address: (Host/IP Address from airflow connection)
 
-  Hostname/address: (Host/IP Address from airflow connection)
+    Port: 5432
 
-  Port: 5432
+    Maintenance database: postgres
 
-  Maintenance database: postgres
+    Username: airflow
 
-  Username: airflow
-
-  Password: airflow
+    Password: airflow
+```
