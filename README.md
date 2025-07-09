@@ -43,6 +43,18 @@ Copy the Container ID of the postgres image
 
 ![alt text](https://github.com/jehrocha/myanimelist_etl_pipeline/blob/main/images/docker%20ps.png?raw=true)
 
+Run
+
+```
+docker inspect <Container ID>
+```
+
+Copy the IP Address given below and use this as the Host for the connection in airflow
+
+![alt text](https://github.com/jehrocha/myanimelist_etl_pipeline/blob/main/images/network.png)
+
+And use this 
+
 
 Go to http://localhost:8080/ and login with credentials:
 
