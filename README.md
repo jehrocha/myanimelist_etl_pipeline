@@ -74,11 +74,11 @@ Fill in the following details
 6. Create a postgres server in pgadmin
 
 Go to http://localhost:5050/ and login with credentials:
-```
-    username: admin@admin.com
 
-    password: root
-```
+>    username: admin@admin.com
+
+>    password: root
+
 Click Add Server
 
 Under **General > Name**, create a name for the server (e.g. anime_server)
