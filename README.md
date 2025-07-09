@@ -75,9 +75,9 @@ Fill in the following details
 
 Go to http://localhost:5050/ and login with credentials:
 
-&nbsp;&nbsp;&nbsp;&nbsp; username: admin@admin.com
+&nbsp;&nbsp;&nbsp;&nbsp; **username**: admin@admin.com
 
-&nbsp;&nbsp;&nbsp;&nbsp; password: root
+&nbsp;&nbsp;&nbsp;&nbsp; **password**: root
 
 Click Add Server
 
