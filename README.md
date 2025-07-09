@@ -73,7 +73,7 @@ Fill in the following details
 
 6. Create a postgres server in pgadmin
 
-Go to http://localhost:5050/ and login with creadentials:
+Go to http://localhost:5050/ and login with credentials:
 
 username: admin@admin.com
 
