@@ -84,14 +84,14 @@ Click Add Server
 Under **General > Name**, create a name for the server (e.g. anime_server)
 
 Under **Connections**, fill in the following:
-```
-    Hostname/address: (Host/IP Address from airflow connection)
 
-    Port: 5432
+>    Hostname/address: (Host/IP Address from airflow connection)
 
-    Maintenance database: postgres
+>    Port: 5432
 
-    Username: airflow
+>    Maintenance database: postgres
 
-    Password: airflow
-```
+>    Username: airflow
+
+>    Password: airflow
+
