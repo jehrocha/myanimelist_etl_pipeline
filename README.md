@@ -55,21 +55,21 @@ Copy the IP Address given below and use this as the Host for the connection in a
 
 Go to http://localhost:8080/ and login with credentials:
 
-&nbsp;&nbsp;&nbsp;&nbsp; username: airflow
+&nbsp;&nbsp;&nbsp;&nbsp; **username**: airflow
 
-&nbsp;&nbsp;&nbsp;&nbsp; password: airflow
+&nbsp;&nbsp;&nbsp;&nbsp; **password**: airflow
 
 In the UI, open the **Admin > Connections** page and click the + button to add a new connection.
 
 Fill in the following details
 
-- Connnection ID: anime_list_conn
-- Connection Type: postgres
-- Host: IP Address
-- Login: airflow
-- Password: 
-- Port: 5432
-- Database: anime
+- **Connnection ID**: anime_list_conn
+- **Connection Type**: postgres
+- **Host**: IP Address
+- **Login**: airflow
+- **Password**: airflow
+- **Port**: 5432
+- **Database**: anime
 
 6. Create a postgres server in pgadmin
 
@@ -85,13 +85,13 @@ Under **General > Name**, create a name for the server (e.g. anime_server)
 
 Under **Connections**, fill in the following:
 
-&nbsp;&nbsp;&nbsp;&nbsp; Hostname/address: (Host/IP Address from airflow connection)
+&nbsp;&nbsp;&nbsp;&nbsp; **Hostname/address**: (Host/IP Address from airflow connection)
 
-&nbsp;&nbsp;&nbsp;&nbsp; Port: 5432
+&nbsp;&nbsp;&nbsp;&nbsp; **Port**: 5432
 
-&nbsp;&nbsp;&nbsp;&nbsp; Maintenance database: postgres
+&nbsp;&nbsp;&nbsp;&nbsp; **Maintenance database**: postgres
 
-&nbsp;&nbsp;&nbsp;&nbsp; Username: airflow
+&nbsp;&nbsp;&nbsp;&nbsp; **Username**: airflow
 
-&nbsp;&nbsp;&nbsp;&nbsp; Password: airflow
+&nbsp;&nbsp;&nbsp;&nbsp; **Password**: airflow
 
