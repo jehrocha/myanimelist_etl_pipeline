@@ -1,1 +1,1 @@
-# myanimelist_etl_pipeline
+# MyAnimeList ETL Pipeline
