@@ -41,7 +41,7 @@ docker ps
 
 Copy the Container ID of the postgres image
 
-![alt text]([http://url/to/img.png](https://github.com/jehrocha/myanimelist_etl_pipeline/blob/main/images/docker%20ps.png))
+![alt text](https://github.com/jehrocha/myanimelist_etl_pipeline/blob/main/images/docker%20ps.png?raw=true)
 
 
 Go to http://localhost:8080/ and login with credentials:
