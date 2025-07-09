@@ -18,7 +18,8 @@ source airflow_venv/bin/activate
 bash setup.sh
 ```
 4. Install Docker
-See (https://www.docker.com/products/docker-desktop/)
+See https://www.docker.com/products/docker-desktop/
+
 Run the following commands
 ```
 docker compose up airflow-init
