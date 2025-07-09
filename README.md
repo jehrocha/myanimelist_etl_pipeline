@@ -18,6 +18,7 @@ source airflow_venv/bin/activate
 bash setup.sh
 ```
 4. Install Docker
+5. 
 See https://www.docker.com/products/docker-desktop/
 
 Run the following commands
