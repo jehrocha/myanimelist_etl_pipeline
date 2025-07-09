@@ -55,9 +55,9 @@ Copy the IP Address given below and use this as the Host for the connection in a
 
 Go to http://localhost:8080/ and login with credentials:
 
-  username: airflow
+>  username: airflow
 
-  password: airflow
+>  password: airflow
 
 In the UI, open the **Admin > Connections** page and click the + button to add a new connection.
 
