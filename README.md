@@ -33,7 +33,7 @@ docker compose down
 
 5. Create postgres connection in airflow
 
-First, get the IP Address of the postgres connection. In the terminal, run
+Get the IP Address of the postgres connection. In the terminal, run
 
 ```
 docker ps
@@ -53,12 +53,10 @@ Copy the IP Address given below and use this as the Host for the connection in a
 
 ![alt text](https://github.com/jehrocha/myanimelist_etl_pipeline/blob/main/images/network.png)
 
-And use this 
-
-
 Go to http://localhost:8080/ and login with credentials:
 
 username: airflow
+
 password: airflow
 
 In the UI, open the **Admin > Connections** page and click the + button to add a new connection.
@@ -67,9 +65,32 @@ Fill in the following details
 
 - Connnection ID: anime_list_conn
 - Connection Type: postgres
-- Host: 
+- Host: IP Address
 - Login: airflow
 - Password: 
 - Port: 5432
 - Database: anime
 
+6. Create a postgres server in pgadmin
+
+Go to http://localhost:5050/ and login with creadentials:
+
+username: admin@admin.com
+
+password: root
+
+Click Add Server
+
+Under **General > Name**, create a name for the server (e.g. anime_server)
+
+Under **Connections**, fill in the following:
+
+Hostname/address: (Host/IP Address from airflow connection)
+
+Port: 5432
+
+Maintenance database: postgres
+
+Username: airflow
+
+Password: airflow
