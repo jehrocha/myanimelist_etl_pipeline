@@ -18,7 +18,7 @@ source airflow_venv/bin/activate
 bash setup.sh
 ```
 4. Install Docker
-5. 
+
 See https://www.docker.com/products/docker-desktop/
 
 Run the following commands
@@ -30,3 +30,34 @@ To stop the airflow container, run:
 ```
 docker compose down
 ```
+
+5. Create postgres connection in airflow
+
+First, get the IP Address of the postgres connection. In the terminal, run
+
+```
+docker ps
+```
+
+Copy the Container ID of the postgres image
+
+![alt text]([http://url/to/img.png](https://github.com/jehrocha/myanimelist_etl_pipeline/blob/main/images/docker%20ps.png))
+
+
+Go to http://localhost:8080/ and login with credentials:
+
+username: airflow
+password: airflow
+
+In the UI, open the **Admin > Connections** page and click the + button to add a new connection.
+
+Fill in the following details
+
+- Connnection ID: anime_list_conn
+- Connection Type: postgres
+- Host: 
+- Login: airflow
+- Password: 
+- Port: 5432
+- Database: anime
+
